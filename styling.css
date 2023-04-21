@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(grey, black , grey );
+}
+
+header {
+    /* background-color: rgb(204, 21, 21); */
+    color: #fff;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+nav ul {
+    height:auto;
+    width:auto;
+    margin: 10;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav li {
+    display:inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: orange;
+    text-decoration:underline;
+}
+
+section {
+    border-style: inset;
+    padding: 50px;
+}
+
+h2 {
+    color: #fff;
+    margin-top: 0;
+    
+}
+#para{
+    color: aqua;
+    text-align: center;
+}
+
+ul {
+    color: #fff;
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+}
+
+form label, form textarea, form input[type="text"], form input[type="email"], form input[type="submit"] {
+    display: block;
+}
